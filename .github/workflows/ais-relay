@@ -1,0 +1,32 @@
+name: AIS relay
+on:
+  schedule:
+    - cron: "*/15 * * * *"     # every 15 minutes (UTC)
+  workflow_dispatch: {}         # manual run button
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ais-relay
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install --quiet websockets
+      - name: Collect fleet positions (~75s)
+        env:
+          AISSTREAM_KEY: ${{ secrets.AISSTREAM_KEY }}
+        run: python collect.py
+      - name: Commit if changed
+        run: |
+          git config user.name "ais-relay"
+          git config user.email "ais-relay@users.noreply.github.com"
+          git add positions.json
+          git commit -m "positions $(date -u +%H:%M)" || exit 0
+          git push
