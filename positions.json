@@ -11,12 +11,34 @@
   "_in_port": "ORF"
  },
  "565382000": {
-  "lat": 36.147596666666665,
-  "lon": -9.497673333333333,
-  "sog": 18.2,
-  "cog": 107.3,
+  "lat": 36.0273,
+  "lon": -9.02211,
+  "sog": 17.6,
+  "cog": 104.4,
   "name": "MELCHIOR SCHULTE",
-  "ts": 1784836918.8474095,
+  "ts": 1784841755.3770974,
+  "arrived_ts": null,
+  "arrived_port": null,
+  "_in_port": null
+ },
+ "256042000": {
+  "lat": 39.707919999999994,
+  "lon": -28.020778333333332,
+  "sog": 14.3,
+  "cog": 282.9,
+  "name": "EMMA A",
+  "ts": 1784841660.010888,
+  "arrived_ts": null,
+  "arrived_port": null,
+  "_in_port": null
+ },
+ "256318000": {
+  "lat": 35.72971,
+  "lon": 17.87528166666667,
+  "sog": 11.6,
+  "cog": 287.4,
+  "name": "SINE A",
+  "ts": 1784841715.009489,
   "arrived_ts": null,
   "arrived_port": null,
   "_in_port": null
