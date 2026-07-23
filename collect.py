@@ -30,8 +30,8 @@ PORTS = {  # keep in sync with config/vessels_ais.yaml in the app repo
     "ORF": (36.95, -76.20, 20),
     "SAV": (32.08, -81.00, 20),
 }
-BBOX = [[[23.0, -83.0], [45.0, -63.0]]]      # US East Coast
-LISTEN_S = 75
+BBOX = [[[-5.0, -85.0], [62.0, 45.0]]]       # full lane: US E-coast + N.Atlantic + Med + Turkey
+LISTEN_S = 150
 OUT = Path(__file__).resolve().parent / "positions.json"
 
 
