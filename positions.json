@@ -11,12 +11,12 @@
   "_in_port": "ORF"
  },
  "565382000": {
-  "lat": 36.216771666666666,
-  "lon": -3.372895,
-  "sog": 14.5,
-  "cog": 80.6,
+  "lat": 36.285005,
+  "lon": -2.8511200000000003,
+  "sog": 13.9,
+  "cog": 75.2,
   "name": "MELCHIOR SCHULTE",
-  "ts": 1784905071.397556,
+  "ts": 1784911620.0672076,
   "arrived_ts": null,
   "arrived_port": null,
   "_in_port": null
