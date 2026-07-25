@@ -42,5 +42,16 @@
   "arrived_ts": null,
   "arrived_port": null,
   "_in_port": null
+ },
+ "271043028": {
+  "lat": 37.52522833333333,
+  "lon": 10.966913333333334,
+  "sog": 14,
+  "cog": 282,
+  "name": "KAAN KALKAVAN",
+  "ts": 1784975189.3656383,
+  "arrived_ts": null,
+  "arrived_port": null,
+  "_in_port": null
  }
 }
