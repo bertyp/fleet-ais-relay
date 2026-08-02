@@ -11,12 +11,12 @@
   "_in_port": null
  },
  "565382000": {
-  "lat": 36.68671833333334,
-  "lon": 34.659234999999995,
-  "sog": 15.6,
-  "cog": 202.5,
+  "lat": 36.26214166666667,
+  "lon": 27.1405,
+  "sog": 16.8,
+  "cog": 313,
   "name": "MELCHIOR SCHULTE",
-  "ts": 1785593631.0228674,
+  "ts": 1785672991.1729577,
   "arrived_ts": null,
   "arrived_port": null,
   "_in_port": null
