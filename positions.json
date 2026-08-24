@@ -44,12 +44,12 @@
   "_in_port": null
  },
  "271043028": {
-  "lat": 36.38775,
-  "lon": -1.1675966666666668,
+  "lat": 36.474825,
+  "lon": -0.7917166666666666,
   "sog": 13.1,
-  "cog": 73.4,
+  "cog": 74,
   "name": "KAAN KALKAVAN",
-  "ts": 1787589144.604561,
+  "ts": 1787594266.4565794,
   "arrived_ts": null,
   "arrived_port": null,
   "_in_port": null
