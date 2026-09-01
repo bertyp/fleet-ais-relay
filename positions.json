@@ -55,12 +55,12 @@
   "_in_port": null
  },
  "538005042": {
-  "lat": 40.55244833333334,
-  "lon": -70.684315,
-  "sog": 11.9,
-  "cog": 267.4,
+  "lat": 39.861560000000004,
+  "lon": -73.86314,
+  "sog": 12.5,
+  "cog": 186.5,
   "name": "MUKADDES KALKAVAN",
-  "ts": 1788115456.0419366,
+  "ts": 1788263878.9686449,
   "arrived_ts": null,
   "arrived_port": null,
   "_in_port": null
